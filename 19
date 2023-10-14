@@ -1,0 +1,12 @@
+text = 'To jest text'
+innyText = ('to jest text')
+print(text == innyText)     #teksty nie sa takie same bo roznia sie wielkoscia liter
+
+'''
+tekst pomiedzy trzema apostrofami
+jest zakomentowany
+asd
+sadasd
+'''
+print('Hello')
+
