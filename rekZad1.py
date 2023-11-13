@@ -26,9 +26,29 @@ def createListOfEvens(lenght,min,max):
         number = random.randint(min,max)
         if number % 2 == 0:
             listEven.append(number)
-    print(listEven)
+    return listEven
 
-createListOfEvens(10,0,9999)
+print(createListOfEvens(10,0,9999))
+
+#Zad4
+string =  'Ala ma kota, kota ma ale, ja nie mam kota'
+stringList = string.split(' ')
+print(stringList)
+print(stringList[1])
+
+#Zad5
+
+
+list1 = ['1', '2', '3']
+for i in range(len(list1)):
+    list1[i] = int(list1[i])
+print(list1)
+
+
+
+
+
+
 
 
 
